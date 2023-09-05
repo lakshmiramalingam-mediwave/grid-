@@ -1,0 +1,80 @@
+body{
+    background: pink;
+   
+  
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    grid-row-gap: 30px;
+
+}
+.card{
+    
+    height: 370px;
+    width: 258px;
+    background:#00BCD4;
+    border: 6px solid white;
+    border-radius: 20px;
+    
+
+}
+.f-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.f-round{
+    height: 15px;
+    width: 15px;
+    background: black;
+}
+
+.arrow{
+    height: 1px;
+    width: 10px;
+    background: black;
+    float: right;
+}
+.dot{
+   
+    
+    height: 10px;
+    width: 10px;
+    border-radius: 50px;
+    background: black;
+    color: black;
+    display: inline-block;
+    margin: 2px;
+    
+    
+
+}
+.ff-flex{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: mintcream;
+}
+
+
+.button1{
+    background-color:black;
+    color: white;
+    border-radius: 20px;
+}
+.second-content{
+    margin-top: 50px;
+}
+.div1{
+    display: flex;
+    justify-content: center;
+    height: 10px;
+    width: revert;
+    margin-top: 119px;
+
+   
+}
+h2{
+    width:50px;
+}
